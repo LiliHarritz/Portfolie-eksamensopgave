@@ -1,0 +1,69 @@
+h6 {
+  font-family: realitystone;
+  color: #473e37;
+  font-size: 40px;
+  position: relative;
+  top: 11px;
+}
+
+h7 {
+  position: relative;
+  font-family: realitystone;
+  font-size: 13vh;
+  opacity: 0.4;
+  color: rgb(152, 125, 71);
+  line-height: 1.1;
+  left: -4px;
+  top: 5px;
+}
+
+.ommig1 {
+  scale: 0.8;
+  position: absolute;
+  z-index: 2;
+  max-width: 100%;
+  top: 10px;
+}
+
+.harritz {
+  position: relative;
+  padding: 20px;
+}
+
+.tekstommig {
+  margin-right: 60px;
+}
+
+.ommig2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  scale: 1.68;
+  margin-bottom: 5vh;
+}
+
+.citat {
+  font-size: 6vh;
+  justify-content: center;
+  position: relative;
+  color: white;
+  -webkit-text-stroke: 1px #000;
+}
+
+.container_ommig {
+  width: 88.5vw;
+  height: 70vh;
+  background-size: cover;
+  background-position: 25% 10%;
+  justify-content: center;
+}
+
+.center {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-weight: bold;
+}

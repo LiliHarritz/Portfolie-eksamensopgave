@@ -1,0 +1,85 @@
+/* Portfolie */
+
+/* Tema 2 */
+
+.box_portfolie {
+  position: relative;
+  background-color: rgb(195, 180, 168);
+  padding: 34px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box_portfolie1 {
+  position: relative;
+  background-color: rgb(195, 180, 168);
+  padding: 34px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bordered-rectangle {
+  border: 3px solid #000;
+  padding: 54px;
+  display: flex;
+  max-width: 80%;
+}
+
+/* knapper */
+button {
+  width: 132px;
+  height: 35px;
+  background-color: #473e37;
+  border-color: #473e37;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 20px;
+  left: 27vh;
+  top: -4vh;
+  position: relative;
+}
+
+button:hover {
+  background-color: #848080;
+  transition: 0.7s;
+}
+
+/* billede og tekst */
+
+.tema2billede {
+  position: relative;
+  scale: 0.9;
+}
+
+.tema2_tekst {
+  margin-top: 7vh;
+}
+
+.videositebillede {
+  margin-top: 8vh;
+  margin-right: 6vh;
+}
+
+/* LAYOUT GRIDS */
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* tekst */
+
+h4,
+h5 {
+  font-family: realitystone;
+  color: #473e37;
+  font-size: 30px;
+  position: relative;
+  top: 11px;
+  line-height: 0.2;
+}
