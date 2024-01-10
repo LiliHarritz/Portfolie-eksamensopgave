@@ -1,0 +1,100 @@
+/* Forside overskrift */
+
+h1 {
+  font-family: realitystone;
+  color: rgb(71, 62, 55);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 8vw;
+  z-index: 10;
+  position: relative;
+  top: -10%;
+  left: 15%;
+  margin-right: 0;
+}
+
+h2 {
+  all: unset;
+  font-family: realitystone;
+  color: #473e37;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 4vw;
+  position: absolute;
+  top: 1%;
+  left: 75px;
+  z-index: 1;
+}
+
+h3 {
+  margin: -43px;
+  padding: 0;
+  position: relative;
+  font-family: realitystone;
+  font-size: 8vw;
+  margin-right: 70px;
+  opacity: 0.4;
+  color: #987d47;
+  line-height: 1.5;
+  top: 5%;
+}
+
+.harritzbox {
+  position: relative;
+  margin-top: 42px;
+}
+
+/* Forside billede */
+
+.forsidebillede {
+  position: relative;
+  z-index: 5;
+  top: -50px;
+  max-width: 100%;
+  margin-left: 80px;
+}
+
+/* container */
+
+.test_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.forside_billede_container {
+  display: flex;
+  margin-top: -220px;
+}
+
+.brunbox {
+  position: absolute;
+  z-index: -1;
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(195, 180, 168);
+  top: 551px;
+}
+
+/* Knap */
+
+.opdagherknap {
+  position: absolute;
+  text-decoration: none;
+  width: 132px;
+  height: 35px;
+  background-color: #473e37;
+  border-color: #473e37;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 20px;
+  z-index: 10;
+  top: 22%;
+  left: 49%;
+}
+
+button:hover {
+  background-color: #67594f;
+  transition: 0.7s;
+}

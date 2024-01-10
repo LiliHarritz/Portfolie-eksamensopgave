@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="icon" type="image/jpg" href="img/logo.png" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lili Harritz eksamens portfolie</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/forside.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <ul>
-          <li><a href="index.html">Forside</a></li>
+          <li><a class="nav" href="index.html">Forside</a></li>
 
-          <li><a href="portfolie.html">Portfolio</a></li>
+          <li><a class="nav" href="portfolie.html">Portfolio</a></li>
 
-          <li><a href="ommig.html">Om mig</a></li>
+          <li><a class="nav" href="ommig.html">Om mig</a></li>
         </ul>
       </nav>
-      <button class="hamburger">
+      <div class="hamburger">
         <div class="bar"></div>
-      </button>
+      </div>
     </header>
+    <nav class="mobile-nav">
+      <a href="index.html">Forside</a>
+      <a href="portfolie.html">Portfolie</a>
+      <a href="ommig.html">Om mig</a>
+    </nav>
     <main>
       <div class="test_container">
         <div class="forside_container">
@@ -43,11 +50,13 @@
     </main>
     <footer>
       <nav>
-        <a href="https://www.facebook.com/profile.php?id=100010022326182"
+        <a
+          class="footer_tekst"
+          href="https://www.facebook.com/profile.php?id=100010022326182"
           >© Lili Harritz</a
         >
       </nav>
     </footer>
-    <script src=""></script>
+    <script src="main.js"></script>
   </body>
 </html>

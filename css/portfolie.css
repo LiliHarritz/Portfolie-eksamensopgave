@@ -1,6 +1,4 @@
-/* Portfolie */
-
-/* Tema 2 */
+/* Box og firkant-linje */
 
 .box_portfolie {
   position: relative;
@@ -10,6 +8,7 @@
   justify-content: space-around;
 }
 
+/* her er der bare tilføjet margin */
 .box_portfolie1 {
   position: relative;
   background-color: rgb(195, 180, 168);
@@ -28,7 +27,15 @@
 }
 
 /* knapper */
+
+.center_img_btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 button {
+  list-style: none;
   width: 132px;
   height: 35px;
   background-color: #473e37;
@@ -39,14 +46,31 @@ button {
   font-weight: 600;
   font-size: 15px;
   border-radius: 20px;
-  left: 27vh;
-  top: -4vh;
+  top: -3vh;
+  margin-right: 7px;
   position: relative;
 }
 
 button:hover {
-  background-color: #848080;
+  background-color: #67594f;
   transition: 0.7s;
+}
+
+.btn_presentation {
+  list-style: none;
+  width: 144px;
+  height: 35px;
+  background-color: #473e37;
+  border-color: #473e37;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 20px;
+  top: -3vh;
+  margin-left: 7px;
+  position: relative;
 }
 
 /* billede og tekst */
@@ -56,8 +80,12 @@ button:hover {
   scale: 0.9;
 }
 
-.tema2_tekst {
+.tema2_tekst1 {
   margin-top: 7vh;
+}
+
+.tema2_tekst2 {
+  margin-top: 3vh;
 }
 
 .videositebillede {
@@ -65,11 +93,9 @@ button:hover {
   margin-right: 6vh;
 }
 
-/* LAYOUT GRIDS */
-
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.videosite_tekst {
+  margin-right: 6vh;
+  margin-bottom: 6vh;
 }
 
 /* tekst */

@@ -1,9 +1,11 @@
+/* tekst og overskrifter */
+
 h6 {
   font-family: realitystone;
   color: #473e37;
-  font-size: 40px;
+  font-size: 4vh;
   position: relative;
-  top: 11px;
+  top: -11px;
 }
 
 h7 {
@@ -17,21 +19,14 @@ h7 {
   top: 5px;
 }
 
+/* Billede */
+
 .ommig1 {
-  scale: 0.8;
+  scale: 0.85;
   position: absolute;
   z-index: 2;
-  max-width: 100%;
-  top: 10px;
-}
-
-.harritz {
-  position: relative;
-  padding: 20px;
-}
-
-.tekstommig {
-  margin-right: 60px;
+  width: 100%;
+  top: 38px;
 }
 
 .ommig2 {
@@ -39,8 +34,33 @@ h7 {
   display: flex;
   align-items: center;
   scale: 1.68;
-  margin-bottom: 5vh;
 }
+
+/* Hej, mit navn er Lili... */
+
+.harritz {
+  position: relative;
+  padding: 20px;
+}
+
+.ommig_tekst {
+  margin-right: 60px;
+  line-height: 1.5;
+  top: -7vh;
+  position: relative;
+}
+
+.ommig_tekst1 {
+  margin-top: 5vh;
+  margin-right: 60px;
+  line-height: 1.5;
+}
+
+.ommig_container {
+  top: -30px;
+}
+
+/* Citat layout */
 
 .citat {
   font-size: 6vh;
@@ -66,4 +86,41 @@ h7 {
   transform: translate(-50%, -50%);
   font-size: 4rem;
   font-weight: bold;
+}
+
+.box_citat {
+  position: relative;
+  justify-content: space-around;
+  background-color: rgb(195, 180, 168);
+  padding: 30px;
+}
+
+/* CV tekst */
+
+h8 {
+  position: relative;
+  font-family: realitystone;
+  font-size: 4vh;
+  color: #473e37;
+}
+
+.cv_venstre {
+  margin-right: 10vh;
+  margin-left: 6vh;
+}
+
+li {
+  margin-bottom: 2vh;
+}
+
+.cv_marginbottom {
+  margin-bottom: 6vh;
+}
+
+.bold_tekst {
+  font-weight: bold;
+}
+
+.margin-bottom {
+  margin-bottom: 4vh;
 }
