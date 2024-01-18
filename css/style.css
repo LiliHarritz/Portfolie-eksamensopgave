@@ -5,14 +5,13 @@
   src: url(../fonts/Reality\ Stone.ttf);
 }
 
-/* Mobilesite */
-@media (min-width: 700px) {
-  .mobile-nav {
-    display: none;
-  }
-}
-
 @media (max-width: 700px) {
+  /* foside */
+  h1 {
+    position: relative;
+    font-size: 6vw;
+  }
+
   .center_img_btn {
     display: flex;
   }
@@ -33,6 +32,24 @@
 
   .tema2billede {
     scale: 0.5;
+    right: 70px;
+  }
+
+  .tema5billede {
+    scale: 0.9;
+    left: 50px;
+  }
+
+  button {
+    right: 80px;
+  }
+
+  .bnt_tema5 {
+    right: 80px;
+  }
+
+  .center_img_btn {
+    right: 1000px;
   }
 
   .bordered-rectangle {
@@ -43,10 +60,6 @@
 
   p {
     width: 80%;
-  }
-
-  .btn_presentation {
-    margin-top: 10px; /* Tilføj lidt topmargen for at skabe plads */
   }
 
   .center_img_btn {
