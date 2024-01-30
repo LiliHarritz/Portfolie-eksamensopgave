@@ -5,12 +5,53 @@
   src: url(../fonts/Reality\ Stone.ttf);
 }
 
-@media (max-width: 700px) {
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
   /* foside */
-  h1 {
-    position: relative;
-    font-size: 6vw;
+
+  .forsidebillede {
+    scale: 0.6;
+    max-width: 100%;
+    transform: translateY(150px);
+    left: -120px; //
   }
+  .forside_billede_container {
+    margin-top: 0px;
+  }
+
+  /* variablerne virker ikke */
+
+  h1 {
+    position: absolute;
+    font-size: 6vw; //
+    transform: translateY(-10px);
+    left: 140px;
+  }
+
+  h2 {
+    position: absolute;
+    transform: translateY(190px); //
+  }
+
+  .harritzbox {
+    left: -280px;
+  }
+
+  h3 {
+    position: absolute;
+    transform: translateY(140px);
+    left: 70px;
+    line-height: 7.5; //
+  }
+
+  .opdagherknap {
+    transform: translateY(120px);
+  }
+
+  /* portfolie */
 
   .center_img_btn {
     display: flex;
