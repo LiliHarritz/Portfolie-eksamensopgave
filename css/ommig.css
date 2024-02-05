@@ -1,3 +1,11 @@
+.box_portfolie1 {
+  position: relative;
+  background-color: rgb(195, 180, 168);
+  padding: 34px;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* tekst og overskrifter */
 
 h6 {
@@ -38,7 +46,7 @@ h7 {
 
 /* Hej, mit navn er Lili... */
 
-.harritz {
+.harritz_ommig {
   position: relative;
   padding: 20px;
 }
@@ -91,8 +99,8 @@ h7 {
 .box_citat {
   position: relative;
   justify-content: space-around;
-  background-color: rgb(195, 180, 168);
-  padding: 30px;
+  background-color: rgb(217, 215, 209);
+  padding: 4vw;
 }
 
 /* CV tekst */

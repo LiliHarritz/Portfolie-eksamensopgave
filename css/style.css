@@ -8,53 +8,121 @@
 .mobile-nav {
   display: none;
 }
+.harritzx4:nth-of-type(4) {
+  display: none;
+}
+.harritzx4:nth-of-type(5) {
+  display: none;
+}
+.harritzx4:nth-of-type(6) {
+  display: none;
+}
 
-@media (max-width: 768px) {
+/* Baggrund */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217, 215, 209);
+  background-position: center;
+  background-size: cover;
+  min-height: 97vh;
+}
+
+/* navigation */
+
+header li {
+  list-style: none;
+}
+
+.navbar {
+  min-height: 45px;
+  display: flex;
+  justify-content: right;
+  padding: 0 50px;
+  margin-top: 8px;
+}
+
+.nav {
+  color: rgb(255, 255, 255);
+  letter-spacing: 7px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Helvetica;
+  margin: 0 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  transition: border-bottom 0.3s; /* Overgangseffekt */
+}
+
+/* footer */
+
+footer {
+  margin-left: 1%;
+  position: relative;
+  top: 4vh;
+  margin-bottom: 3%;
+}
+
+.footer_tekst {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media (min-width: 481px) and (max-width: 960px) {
   /* foside */
 
   .forsidebillede {
     scale: 0.6;
     max-width: 100%;
-    transform: translateY(150px);
-    left: -120px; //
-  }
-  .forside_billede_container {
-    margin-top: 0px;
+    transform: translateY(23vw);
+    left: -100px;
   }
 
-  /* variablerne virker ikke */
-
-  h1 {
-    position: absolute;
-    font-size: 6vw; //
-    transform: translateY(-10px);
-    left: 140px;
+  .liliharritz {
+    top: 0%;
+    left: 22%;
   }
 
-  h2 {
-    position: absolute;
-    transform: translateY(190px); //
+  .portfolie {
+    top: 30%;
+    left: 40%;
   }
 
   .harritzbox {
-    left: -280px;
+    left: -267px;
   }
 
-  h3 {
-    position: absolute;
-    transform: translateY(140px);
-    left: 70px;
-    line-height: 7.5; //
+  .harritzx4 {
+    margin: 0;
+    top: 30%;
+    left: 15%;
+    line-height: 1.2;
   }
-
   .opdagherknap {
-    transform: translateY(120px);
+    transform: translateY(80px);
+  }
+
+  .harritzx4:nth-of-type(4) {
+    display: block;
   }
 
   /* portfolie */
 
   .center_img_btn {
     display: flex;
+    align-items: center;
+  }
+
+  .btn_port {
+    left: -85px;
   }
 
   .citat {
@@ -65,6 +133,9 @@
     scale: 0.7;
     left: -30px;
     top: -20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
   }
 
   .width {
@@ -78,19 +149,11 @@
 
   .tema5billede {
     scale: 0.9;
-    left: 50px;
+    left: -35vw;
   }
 
-  button {
-    right: 80px;
-  }
-
-  .bnt_tema5 {
-    right: 80px;
-  }
-
-  .center_img_btn {
-    right: 1000px;
+  .videositebillede {
+    left: -35vw;
   }
 
   .bordered-rectangle {
@@ -99,28 +162,169 @@
     flex-wrap: wrap;
   }
 
-  p {
-    width: 80%;
-  }
-
-  .center_img_btn {
-    text-align: center; /* Centrer tekst og knapper på mobilskærme */
-  }
-
+  /* virker ikke */
   h4,
   h5,
   h6 {
-    font-size: 24px; /* Reducer overskriftsstørrelsen på mobilskærme */
+    font-size: 6vh; /* Reducer overskriftsstørrelsen på mobilskærme */
   }
 
   h7 {
-    font-size: 60px;
+    font-size: 6vh;
   }
 
-  .videositebillede {
-    scale: 0.75;
+  /* om mig side */
+
+  .cv_venstre {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 4vw;
+  }
+
+  .ommig1 {
+    scale: 0.7;
+    left: -53px;
+    top: -39px;
+    position: absolute;
+  }
+
+  .ommig2 {
+    width: 50vw;
+    height: 30vw;
+    object-fit: cover;
+  }
+
+  .harritz_ommig {
+    height: 43vw;
+  }
+
+  .ommigharritz {
+    font-size: 12vw;
+  }
+
+  .citat {
+    font-size: 5vh;
   }
 }
+
+@media (max-width: 480px) {
+  /* forside */
+
+  .forsidebillede {
+    scale: 0.5;
+    max-width: 50vw;
+    transform: translateY(130px);
+    left: -130px;
+  }
+  .forside_billede_container {
+    margin-top: 0px;
+  }
+
+  .liliharritz {
+    top: -25px;
+    font-size: 10vw;
+  }
+
+  .portfolie {
+    top: 27%;
+    left: 0%;
+    font-size: 5.5vw;
+    z-index: 10;
+  }
+
+  .harritzbox {
+    left: -280px;
+  }
+
+  .harritzx4 {
+    margin: 0;
+    top: 27%;
+    left: -25%;
+    line-height: 1.2;
+    font-size: 10vw;
+  }
+
+  .harritzx4:nth-of-type(4) {
+    display: block;
+  }
+  .harritzx4:nth-of-type(5) {
+    display: block;
+  }
+  .harritzx4:nth-of-type(6) {
+    display: block;
+  }
+
+  .opdagherknap {
+    scale: 0.8;
+    margin-top: 26%;
+    margin-left: -35%;
+  }
+
+  .test_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: -10px;
+  }
+
+  .brunbox {
+    all: unset;
+    transform: translateY(-40px);
+    height: 80vh;
+  }
+
+  /*portfolie */
+
+  .bordered-rectangle {
+    border: 3px solid #000;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box_portfolie {
+    flex-direction: column;
+  }
+
+  /* tema 2,3,4 billede - virker ikke */
+  .tema2billede {
+    scale: 0.8;
+  }
+
+  /* virker ikke */
+  .button {
+    margin-bottom: 3vw;
+    scale: 0.8;
+  }
+
+  /* om mig side */
+
+  .ommigharritz {
+    font-size: 12vw;
+  }
+
+  .citat {
+    font-size: 6vw;
+  }
+
+  .ommig2 {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+  }
+
+  .container_ommig {
+    height: 40vh;
+  }
+
+  .cv_venstre {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 4vw;
+  }
+}
+
+/*****burgermenu */
 
 @media (max-width: 700px) {
   /*burgermenu **/
@@ -202,7 +406,7 @@
     margin: 0 auto 16px;
     text-align: center;
     padding: 12px 16px;
-    background-color: rgb(195, 180, 168);
+    background-color: #c3b4a8;
     color: rgb(255, 255, 255);
     font-weight: 600;
     letter-spacing: 7px;
@@ -213,63 +417,4 @@
   .mobile-nav a:hover {
     color: rgb(0, 0, 0);
   }
-}
-/*****burgermenu */
-
-/* Baggrund */
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(217, 215, 209);
-  background-position: center;
-  background-size: cover;
-  min-height: 97vh;
-}
-
-/* navigation */
-
-header li {
-  list-style: none;
-}
-
-.navbar {
-  min-height: 45px;
-  display: flex;
-  justify-content: right;
-  padding: 0 50px;
-  margin-top: 8px;
-}
-
-.nav {
-  color: rgb(255, 255, 255);
-  letter-spacing: 7px;
-  text-decoration: none;
-  font-weight: 600;
-  font-family: Helvetica;
-  margin: 0 20px;
-}
-
-nav ul {
-  display: flex;
-}
-
-a:hover {
-  color: rgb(0, 0, 0);
-  transition: border-bottom 0.3s; /* Overgangseffekt */
-}
-
-/* footer */
-
-footer {
-  margin-left: 1%;
-  position: relative;
-  top: 4vh;
-  margin-bottom: 3%;
-}
-
-.footer_tekst {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 12px;
 }

@@ -6,16 +6,6 @@
   padding: 34px;
   display: flex;
   justify-content: space-around;
-}
-
-/* her er der bare tilføjet margin */
-.box_portfolie1 {
-  position: relative;
-  background-color: rgb(195, 180, 168);
-  padding: 34px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -49,6 +39,7 @@ button {
   top: -3vh;
   margin-right: 7px;
   position: relative;
+  cursor: pointer;
 }
 
 button:hover {
@@ -107,5 +98,16 @@ h5 {
   font-size: 30px;
   position: relative;
   top: 11px;
-  line-height: 0.2;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: realitystone;
+  color: #473e37;
+  font-size: 30px;
+  position: relative;
+  top: 11px;
+  line-height: 0.01;
+  margin-bottom: 20px;
 }
